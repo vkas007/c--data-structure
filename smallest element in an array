@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[]={48,48,65,687,638,354,878,68};
+    int n=sizeof(arr)/sizeof(arr[0]);
+    int mini_element=INT_MAX;
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]<mini_element)
+        mini_element=arr[i];
+    }
+cout<<mini_element;
+}
